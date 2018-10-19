@@ -1,0 +1,26 @@
+title: my_schema
+description: This is my schema
+type: object
+
+required:
+  - name
+
+properties:
+  name:
+    title: name
+    description: Schema name
+    type: string
+
+  age:
+    title: age
+    description: Schema age
+    type: number
+
+  data:
+    title: data
+    description: Schema data
+    type: array
+    items:
+      title: data_item
+      description: Schema data item
+      type: string
